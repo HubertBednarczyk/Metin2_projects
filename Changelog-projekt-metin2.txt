@@ -138,7 +138,7 @@
 •	[FIX] Naprawiono mechanikę umiejętności 'Strach' zgodnie z jej działaniem na oficjalnym serwerze. 	 
 •	[FIX] Poprawiono mechanikę bonusów: obrażenia dodawane do PE/PŻ teraz uwzględniają wartość atrybutu. 	 
 •	[FIX] Zablokowano wykonywanie obrażeń w trybie obserwacji wojny. 	
-[FIX] Dodano warunek w funkcji Damage, który sprawdza, czy pAttacker jest nullptr; w przypadku tego warunku funkcja zwraca false i kończy działanie. 	 
+•	[FIX] Dodano warunek w funkcji Damage, który sprawdza, czy pAttacker jest nullptr; w przypadku tego warunku funkcja zwraca false i kończy działanie. 	 
 •	[FIX] Naprawiono błąd związany ze zmianą królestwa, który umożliwiał graczom dołączenie do gildii w poprzednim królestwie, mimo że już do niego nie należeli. 	 
 •	[FIX] Naprawiono błąd z utrzymującym się bonusem punktów życia (HP) po rozwiązaniu grupy. 	 
 •	[FIX] Naprawiono błąd w obliczeniach punktów życia podczas zmiany założonego przedmiotu. 	 
@@ -287,7 +287,7 @@
 •	[REMOVE] Usunięcie systemu Monarchy 	
 •	[REMOVE] Usunięcie systemu Auction 	
 •	[REMOVE] Usunięcie nieużywanego modułu 'vcard' 	
-•	[REMOVE] Ussuwanie nieużywanego modułu 'billing' 	
+•	[REMOVE] Usunięcie nieużywanego modułu 'billing' 	
 •	[REMOVE] Usunięcie nieużywanego modułu 'sms - mobile' 	
 •	[REMOVE] Usunięcie nieużywanego modułu 'openid' 	
 •	[REMOVE] Usunięcie nieużywanego modułu 'dev_log' 	
