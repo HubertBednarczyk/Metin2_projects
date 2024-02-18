@@ -1,0 +1,298 @@
+•	[NEW] Dostępna jest opcja konfiguracyjna do bazy danych! Ustaw MIRROR2DB = 0 i PROTO_FROM_DB = 1, aby łatwo przełączać się między odczytem proto w formacie SQL lub TXT. 	 
+•	[NEW] Teraz możesz kupować przedmioty ze sklepu za 0 yang, a opis przedmiotu automatycznie ustawiany jest jako "Przedmiot Darmowy". 	 
+•	[NEW] Wprowadzono nową funkcję "BlockBuffForGM", która umożliwia blokowanie rzucania buffa przez GM na gracza, a także odwrotnie. Funkcja zwraca wartość logiczną. 	 
+•	[NEW] Teraz po użyciu zielonej i fioletowej mikstury pojawi się dodatkowy efekt! 	 
+•	[NEW] Dodano zmienną 'maxLevelForStatPoints', co umożliwia dostosowanie w konfiguracji poziomu, do którego statystyki będą rozdawane. 	 
+•	[NEW] Dodano 'char_calc.cpp' z funkcją 'CalculateMagicDamage', obliczającą ostateczne obrażenia magiczne na podstawie 'initialDamage', 'magicAttBonusPer' i 'meleeMagicAttBonusPer'. [*ALFA TEST*] 
+•	[NEW] Dodano wyświetlanie poziomu postaci podczas handlu z graczem. 	 
+•	[NEW] Dodano nowe opcje systemowe umożliwiające dostosowywanie środowiska. 	 
+•	[NEW] Dodano nowy parametr konfiguracyjne określający możliwość włączenia/wyłączenia globalnego chatu dla graczy. 	 
+•	[NEW] Rozszerzenie liczby stron w ekwipunku do 4. 	  
+•	[NEW] Dodano 6 umiejętność dla klas Ninji i Wojownika. 	 
+•	[NEW] Dodano efekt po użyciu peleryny męstwa, zgodny z oficjalnym serwerem. 	 
+•	[NEW]Wyświetlono procent w oknie ulepszania przedmiotów oraz ile jest itemow  eq. 	 
+•	[NEW] Dodano kolor efektu celu zgodny z kolorem królestwa. 	 
+•	[NEW] Rozszerzono ilość slotów na postać do 5. 	  
+•	[NEW] Nowa funkcja, która ustawia wybór postaci według ostatniego wyboru. 	
+•	[NEW] Przenoszenie przedmiotów do magazynu i handlu poprzez PPM. 	 
+•	[NEW] Nowy typ dla przedmiotów - 'ITEM_GACHA'. 	 
+•	[NEW] Dodano nowe mikstury - Czerwona Mikstura (XXL) oraz Niebieska Mikstura (XXL). 	 
+•	[NEW] Wprowadzono bibliotekę 'libfmt' w celu optymalizacji i zwiększenia bezpieczeństwa procesu formatowania tekstu. 	 
+•	[NEW] Zapobieganie nałożeniu słabszego buffa. 	 
+•	[NEW] Dostosowanie koloru nazwy gracza w przedmiotach zdobytych przez wroga. 	 
+•	[NEW] Automatyczne oznaczanie potworów poprzez klawisz 'TAB'. 	 
+•	[NEW] Dodano nowy 6 taniec Gangsam style. 	 
+•	[NEW] Dodano handler obsługujący przywoływanie peta przez pieczęć model zwierzaka wczytywany z 'value0'. 	 
+•	[NEW] Dodano nowy typ przedmiotu do przywoływania zwierzaka - 'ITEM_PET'. 	 
+•	[NEW] Dodano wyświetlanie bonusów w pieczęciach petów wczytywanych z bazy danych. 	 
+•	[NEW] Wyświetlanie okna gry w centrum pulpitu. 	 
+•	[NEW] Wskazówki podczas ładowania do gry (like official). 	 
+•	[NEW] Wdrożono mechanizm ładowania zasobów z folderów 'npc_pet' i 'npc_mount'. 	 
+•	[NEW] Dodano efekt podczas przywoływania zwierzaka. 	 
+•	[NEW] Dodano modele standardowych zwierzaków. 	 
+•	[NEW] Dodano zegarek pod minimapą 	
+•	[NEW] Dodano bryły złota (500kk, 1kkk,10kkk, 25kkk, 50kkk,100kkk) 	 //w przyslosci ew. wony
+•	[NEW] Dodanie kilku nowych rang 	 
+•	[NEW] Dodanie bonusów do rang  	
+•	[NEW] Dodanie opcji do panelu bocznego ( NIESKONCZONE ) 	
+•	[NEW] Dodanie systemu logów yang, teraz zdobyte yangi wyświetlają się na osobnym czacie 	
+•	[NEW] Dodanie wybonowanych itemów na start 	
+•	[NEW] Dodano nieskończone przedmioty (pelerynki, zmianki, dodania, potki) 	
+•	[NEW] Dodanie 1-5 ma 100% na wejście
+•	[NEW] Dodanie oznaczenia dropu, nie nasz drop wyświetlany jest na czerwono.
+•	[NEW] Podświetlanie Maksymalnych Bonów 	
+•	[NEW] Dodano system ukazujący aktualny ping do serwera pod minimapa 	
+•	[NEW] Dodano licznik fps pod minimapą 	
+•	[NEW] Dodano instant-pickup
+•	[NEW] Wybor skilli w GUI -> nadawanie skilli na p w c++
+•	[NEW] Zwiększono standardową szybkość ruchu
+•	[NEW] Dodano szybkie dodawanie statystyk za pomocą CTRL
+•	[NEW] Limit czasowy na efekt peleryny męstwa 1 sekunda.
+•	[NEW] Metiny od teraz są widoczne na mini-mapie. 	
+•	[NEW] Dodatek do okna ulepszania – po najechaniu na ulepszacz wyświetla się gdzie dropi. 	 // nie dodane
+•	[NEW] Dodanie dopisku ‘Pradawna epicka zbroja’ do każdej zbroi -> dodać do całego eq.
+•	[NEW] Dodano przedmioty do podnoszenia pkt rangi.
+•	[NEW] Dodano powiększone sklepy
+•	[NEW] Dodano powiększony handel
+•	[NEW] Dodano system ‘Target HP’. Po hicie ukazywana jest animacja zmniejszenia HP.
+•	[NEW] Dodano szybsze wyświetlanie tekstu w questach.
+•	[NEW] Dodano affecty dopalaczy w lewym gornym rogu. 	
+•	[NEW] Dodano doline orkow, pustynie
+•	[NEW] Dodano gui sklepu marmurów. 	
+•	[NEW] Dodano ikony bossow na minimapie. 	
+•	[NEW] Dodano wikipedie-dropu 	
+•	[NEW] Naprawa zawieszanie się gry podczas przeciągania klienta 	
+•	[NEW] Dodano dungeon plagi – nie wiadomo na który lvl bedzie
+•	[NEW] Obsługa wydobywania rud implementacja nowych metod 	
+•	[NEW] Przechodzenie przez NPC & MOBY 	
+•	[NEW] Dodanie zapamiętywania wiadomości na czacie po tp. 	
+•	[NEW] Dodano dopiski do czatu globalnego (królestwo, level) 	
+•	[NEW] Dodano obwódkę do wiadomości na czacie, lepsza przejrzystość. 	
+•	[NEW] Dodano przycisk do czatu PM który od razu otwiera okno PW 	
+•	 
+•	[UPDATE] Zwiększenie maksymalnego levela do 350.  	
+•	[UPDATE] Nowy interfejs tworzenia postaci (oficjalna wersja). 	 
+•	[UPDATE] Zaktualizowano `serverinfo.py` teraz adres IP zdefiniowano na początku pliku w celu łatwiejszej konfiguracji. 	 
+•	[UPDATE] Dodano kamienie Metin z oficjalnego patch'a 13.3. 	 
+•	[UPDATE] Zaktualizowano przyciski potwierdzające w oknach popup. 	 
+•	[UPDATE] Zaktualizowano pozycję startową po pierwszym zalogowaniu do gry dla wszystkich królestw. 	  
+•	[UPDATE] Szybsze podnoszenie przedmiotów. 	 
+•	[UPDATE] Wyświetlenie ilości sztuk przy wydropionych lub wyrzuconych przedmiotach na ziemie. 	 
+•	[UPDATE] Nowy format wyświetlania ceny przedmiotu podczas sprzedaży. 	 
+•	[UPDATE] Zoptymalizowano wszystkie standardowe animacje emocji. 	 
+•	[UPDATE] Zaktualizowano Granny2 do wersji 2.11.8. 	 
+•	[UPDATE] Usunięto locale_string.txt z serwera teraz jest czytane tylko z klienta gry. 	 
+•	[UPDATE] Zaktualizowano 258 komunikatów chatu w źródle gry do locale_string.txt czytanego z klienta gry.  	 
+•	[UPDATE] Zaktualizowano skrypt panel.sh do wersji v1.1 dodano dwie nowe opcje kompilacji questów oraz kompilacji źródła. 
+•	[UPDATE] Ulepszono ładowanie do gry, pasek ładowania ma teraz płynną animację i procent załadowania. 	
+•	[UPDATE] Ulepszenia w wyświetlaniu poziomu i rangi oraz przedrostek dla Game Masterów. 	 
+•	[UPDATE] Aktywowano atrybut TOGGLE dla umiejętności nakładających efekt. 	 
+•	[UPDATE] Dostosowano znikanie potworów po śmierci w celu poprawy wydajności. 	 
+•	[UPDATE] Nowy interfejs wyboru królestwa (oficjalna wersja). 	 
+•	[UPDATE] Nowy interfejs wyboru postaci (oficjalna wersja). 	   
+•	[UPDATE] Maksymalna ilość życia po odrodzeniu zamiast 50pkt. 	
+•	[UPDATE] Zwiększono czas trwania umiejętności do 30 minut [Navicat/client]
+•	[UPDATE] Stały atak ze strzał - wyłączenie zależności obrażeń od zasięgu przeciwnika 	
+•	[UPDATE] Podświetlenie na zielono ulepszaczy w oknie ulepszania które mamy w EQ.
+•	[UPDATE] Poszerzono okno ulepszania, teraz wszystkie bonusy znajdują się na terenie okna. ->poprawic
+•	[UPDATE] Zwiększenie max długości nazwy przedmiotu
+•	[UDPATE] Lekkie zwiększenie odległości działania peleryny męstwa
+•	[UDPATE] Peleryna męstwa ma 100% na przywołanie potwora. 	
+•	[UPDATE] Od teraz nie zdobywa się rangi z potworów oraz stojąc w mieście. //usuniete
+•	[UPDATE] Zmieniono wygląd miast pierwszych/drugich
+•	[UPDATE] Zniesiono limit stack na 4k. 	
+•	[UPDATE] Zniesiono limit yang na 999.999.999.999 	
+•	[UPDATE] Usunięto czerwone potki za level/kulke statusu.
+•	[UPDATE] Dodawanie do przyjaciół między kanałami. 	
+•	[UPDATE] Powiekszono znacznie spoty i respy metkow // TYLKO MIASTA m1/m2
+•	[UPDATE] Wprowadzono szybsze ładowanie gry. 	 // USUNIETE
+•	[UPDATE] Zablokowanie zadawania obrażeń w przeciwnika (gracza) będąc przemienionym w marmurku 	
+•	[UPDATE] Jedne dodanie dodaje 5 bonusów.
+•	[UPDATE] Usunięcie wymogu posiadania maski uczuć do korzystania z emocji. 	
+•	[UPDATE] Aktualizacja wszystkich komunikatów w źródle gry do klientowej wersji locale stringa 	
+•	[UPDATE] Buff dla każdego w grupie 	
+•	[UPDATE] Kolor Yang w Zależny od Ilości 	
+•	[UPDATE] Szkło intuicji nie jest już wymagane 	
+•	
+•	[FIX] Naprawiono błąd z czarowanym ostrzem. Teraz punkty życia są prawidłowo przywracana, zamiast być odejmowanymi. 	 
+•	[FIX] Naprawiono błąd powodujący, że postać po zalogowaniu pozostawała niewidoczna. 	 
+•	[FIX] Naprawiono błąd związany z użyciem całego stacku przedmiotów. 	 
+•	[FIX] Naprawiono błąd powodujący awarię gry związany z nullpointerem w 'setQuestFlag' i 'getQuestFlag'. 	 
+•	[FIX] Naprawiono automatyczną wymianę przedmiotów w ekwipunku przy braku wolnych slotów. 	 
+•	[FIX] Zablokowano interakcję z przedmiotami aktualnie noszonymi przez postać. 	 
+•	[FIX] Naprawiono błąd, pozwalający utworzenie gildii bez wymaganego poziomu. 	 
+•	[FIX] Naprawiono startowanie procesu bazy danych poprzez problem z nieodpowiednim kodowaniem znaków. 	 
+•	[FIX] Naprawiono dwuznaczną kolumną 'name' podczas ładowania danych o monarchii. 	 
+•	[FIX] Naprawiono problem z zablokowanym kursorem myszy podczas obracania kamery i jednoczesnym minimalizowaniu okna gry. 	  
+•	[FIX] Naprawiono odświeżanie poziomu postaci w czasie rzeczywistym przy nazwie gracza. 	 
+•	[FIX] Naprawiono problem związany z występowaniem ujemnych punktów życia po śmierci postaci. 	 
+•	[FIX] Naprawiono błąd, który skutkował awarią rdzenia gry w przypadku braku nowej linii na końcu pliku "index". 	 
+•	[FIX] Naprawiono błąd w funkcji 'do_shutdown', który rozwiązuje problemy z bezpieczeństwem poprzez wprowadzenie autoryzacji. 	 
+•	[FIX] Naprawiono awarię rdzenia gry związaną z dodawaniem postaci do gildii, eliminując możliwość awarii podczas próby dodania potwora lub NPC. 	 
+•	[FIX] Poprawiono błąd w funkcji 'npc_get_leader_vid' - teraz sprawdzamy istnienie drużyny i obecność lidera przed wywołaniem funkcji, eliminując awarie gry. 	 
+•	[FIX] Naprawiono błąd z bonusem "Odporność na omdlenia" - działa teraz poprawnie za każdym razem. 	 
+•	[FIX] Naprawiony błąd, w którym polecenie /war nazwa_gildii (z ujemną wartością) prowadziło do awarii serwera. 	 
+•	[FIX] Dodano zabezpieczenie funkcji whisper przed nadmiernym wysyłaniem wiadomości prywatnych oraz przed wyrzucaniem graczy przez 'kick hack'. 	 
+•	[FIX] Naprawiono błąd, który umożliwiał podnoszenie przedmiotów innych graczy w grupie, gdy lider grupy był offline. 	 
+•	[FIX] Naprawiono błąd umożliwiający obejście limitu znaków w nazwie postaci. 	 
+•	[FIX] Naprawiono mechanikę umiejętności 'Strach' zgodnie z jej działaniem na oficjalnym serwerze. 	 
+•	[FIX] Poprawiono mechanikę bonusów: obrażenia dodawane do PE/PŻ teraz uwzględniają wartość atrybutu. 	 
+•	[FIX] Zablokowano wykonywanie obrażeń w trybie obserwacji wojny. 	
+[FIX] Dodano warunek w funkcji Damage, który sprawdza, czy pAttacker jest nullptr; w przypadku tego warunku funkcja zwraca false i kończy działanie. 	 
+•	[FIX] Naprawiono błąd związany ze zmianą królestwa, który umożliwiał graczom dołączenie do gildii w poprzednim królestwie, mimo że już do niego nie należeli. 	 
+•	[FIX] Naprawiono błąd z utrzymującym się bonusem punktów życia (HP) po rozwiązaniu grupy. 	 
+•	[FIX] Naprawiono błąd w obliczeniach punktów życia podczas zmiany założonego przedmiotu. 	 
+•	[FIX] Naprawiono problem z ujemnymi punktami życia i energii, które powodowały przepełnienie (overflow). 	 
+•	[FIX] Wprowadzono zabezpieczenie mechaniki wydobycia poprzez kontrolę mapy i dystansu. 	 
+•	[FIX] Naprawiono błąd, w którym nad postaciami i potworami pojawiały się nazwy sklepów. 	 
+•	[FIX] Naprawiono 'ghost mode hack', który umożliwiał postaci powstanie w innym miejscu niż padła z powodu braku kontroli w funkcji ruchu. 	 
+•	[FIX] Naprawiono błąd, który powodował awarię rdzenia gry podczas korzystania z 'cube r_list'. 	 
+•	[FIX] Poprawiono teksturę modelu Seon-Pyeong. 	 
+•	[FIX] Dodano zabezpieczenia 'db_port', 'p2p_port' oraz dostępu zdalnego do 'adminpage'. 	 
+•	[FIX] Naprawiono błąd generujący się podczas ulepszania magicznym metalem związany z nierozpoznanym typem 'scrolla' do ulepszania. 	 
+•	[FIX] Naprawiono zakładanie pasów przez ustawienie typu pasów w 'item_proto'. 	 
+•	[FIX] Naprawiono błąd związany z przenoszeniem niedozwolonych typów przedmiotów z magazynu do inwentarza pasa. 	 
+•	[FIX] Naprawiono brakujący efekt świecenia - specular dla przedmiotów na +7/8/9. 	 
+•	[FIX] Naprawiono awarię rdzenia gry, która była spowodowana dzieleniem wartości HP potwora przez zero w mob_proto. 	 
+•	[FIX] Naprawiono błąd związany ze zmianą pasa na pas z mniejszą ilością odblokowanych slotów, który blokował dostęp do pozostałych przedmiotów w pasie. 	 
+•	[FIX] Naprawiono błąd, który uniemożliwiał kliknięcie przycisku od kostiumów i itemshop w ekwipunku. 	 
+•	[FIX] Naprawiono błąd z wydajnością gry spowodowaną przypisaniem partycji D do napędu DVD/CD-ROM. 	 
+•	[FIX] Naprawiono sprawdzania brakujących nagłówków podczas analizy w procesie logowania. 	 
+•	[FIX] Naprawiono błąd pozostałych efektów umiejętności po zmianie profesji. 	 
+•	[FIX] Naprawiono błąd użycia umiejętności Czarowane Ostrze lub Aura Miecza bez założonej broni. 	 
+•	[FIX] Naprawiono komendy 'level' które niepotrzebnie resetowała umiejętności zamiast zmieniać tylko poziom. 	 
+•	[FIX] Naprawiono błąd bezpieczeństwa w funkcji związanej z zadaniami - 'pc_select_vid'. 	 
+•	[FIX] Naprawiono efektu aktywacji auto potów na dodatkowych stronach w ekwipunku. 	 
+•	[FIX] Naprawiono funkcji 'CheckMoving' która nie uwzględniała przedmiotów 3-slotowych podczas sprawdzania. 	 
+•	[FIX] Naprawiono krytycznego błędu z kopiowanie przedmiotów poprzez funkcję od zmiany nazwy gracza 'pc_change_name'. 	 
+•	[FIX] Naprawiono błąd umożliwiającego atakowanie sklepów graczy. 	 
+•	[FIX] Naprawiono błąd w tabeli 'player_deleted' podczas używania postfix w tabelach. 	 
+•	[FIX] Naprawiono błąd zliczania potworów w funkcji 'd.count_monster'. 	 
+•	[FIX] Naprawiono błąd powodujący opóźnienia, wywołany częstym wsiadaniem i zsiadaniem z konia. 	 
+•	[FIX] Naprawiono błąd umożliwiający karmienie martwego konia. 	 
+•	[FIX] Naprawiono błąd resetujący specular. 	 
+•	[FIX] Naprawiono krytyczny błąd umożliwiający wykonanie SQL inject w funkcjach do obsługi przyjaciół. 	 
+•	[FIX] Naprawiono krytyczny błąd umożliwiający wykonanie SQL inject w funkcji od tworzenia gildii. 	 
+•	[FIX] Naprawiono odświeżanie listy affectów po odwołaniu konia. 	 
+•	[FIX] Naprawa błędu przepełnienia punktów miłosnych. 	
+•	[FIX] Naprawa funkcji SetSkillGroup poprzez weryfikację dostępności obiektu. 	 
+•	[FIX] Naprawa luki bezpieczeństwa w systemie autoryzacji do ACP. 	 
+•	[FIX] Naprawa błędu ładowania dolnej części skybox'a. 	 
+•	[FIX] Naprawa błędu przekroczenia zakresu przy ustawieniu kierunku.
+•	[FIX] Naprawa braku wpływu bonusu - szybkości zaklęcia na czas odnowienia w opisie umiejętności. 	
+•	[FIX] Naprawa błędu konwersji typów w funkcji 'PyTuple_GetUnsignedLong'. 	 
+•	[FIX] Naprawa funkcji aktualizacji złota przy ujemnych wartościach. 	 
+•	[FIX] Naprawa błędu powodującego upadek postaci przy użyciu umiejętności Silne Ciało. 	 
+•	[FIX] Naprawa podnoszenia przedmiotu przez kliknięcie będąc na koniu lub wierzchowcu. 	 
+•	[FIX] Naprawa przycinania chmur w skyboxie podczas renderowania. 	 
+•	[FIX] Naprawa połączenia z serwerem podczas problemów sieciowych. 	 
+•	[FIX] Wyłączenie yang-bomby 	
+•	[FIX] Blokada masowego wyrzucania itemów. 	
+•	[FIX] Natychmiastowa aktualizacja lv. przy Nicku. 	
+•	[FIX] Blokada wyrzucania Yang. 	
+•	[FIX] Aura i Czarowane nie znika po teleporcie 	
+•	[FIX] Naprawa używania emocji podczas ogłuszenia postaci 	
+•	[FIX] Naprawa błędu uniemożliwiającego przerwanie automatycznego ataku 	
+•	[FIX] Naprawa błędu z czytaniem księgi umiejętności na maksymalnym poziomie 	
+•	[FIX] Naprawa minusowego czasu odrodzenia postaci podczas zakupów u npc 	
+•	[FIX] Naprawa błędu dublowania bonusów z affectów po wielokrotnym użyciu przedmiotów 	
+•	[FIX] Naprawa błędu logicznego w poleceniu aktualizacji rangi dla gracza 	
+•	[FIX] Naprawa błędu w którym agresywne potwory wchodziły na strefę bezpieczeństwa 	
+•	[FIX] Naprawa wycieków pamięci przez implementację inteligentnych wskaźników w systemie wiadomości 	
+•	[FIX] Naprawa niespójności w systemie znajomych 	
+•	[FIX] Naprawa błędu z zakładaniem całego stacku przedmiotów na slot 	
+•	[FIX] Naprawa błędów w aktualizacji statystyk i ekwipunku podczas zmiany oraz wylogowania postaci 	
+•	[FIX] Naprawa błędu z wyciekiem pamięci w funkcji przeładowującej zadania 	
+•	[FIX] Naprawa błędu z umieszczaniem kamieni duszy w stacku  	
+•	[FIX] Naprawa polecenia 'reload q' powodującego awarię rdzenia gry 	
+•	[FIX] Naprawa błędu dotyczącego użycia mikstury, gdy jej efekt jeszcze trwa 	
+•	[FIX] Naprawa krytycznego błędu w funkcji 'MoveItem', zapobiegając duplikacji przedmiotów 	
+•	[FIX] Naprawa wycieku pamięci w systemie magazynu: funkcja 'ChangeSize' 	
+•	[FIX] Naprawa opóźnienia po użyciu umiejętności Rozproszenie Magii i Leczenie – aktualizacja 	
+•	[FIX] Aktualizacja umiejętności strzelający smok 	
+•	[FIX] Naprawa błędów z bukietem ślubnym 	
+•	[FIX] Naprawa przechowywania cen w bazie danych 'myshop_pricelist' podczas dodawania przedmiotów przez Szpule Jedwabiu 	
+•	[FIX] Naprawa błędu w zapytaniu cache do 'myshop_pricelist' | Błąd 'AsyncSQL: Duplicate nick '16-0' for key 'list_id' (errno: 1062)' 	
+•	[FIX] Naprawa błędu gubienia hitów podczas ataku z dzwona na wierzchowcu 	
+•	[FIX] Naprawa błędu podczas niepoprawnej pozycji gracza - automatyczne przenoszenie na mapę startową 	
+•	[FIX] Naprawa wyświetlania białych tekstur w dalekim dystansie z modeli LOD 	
+•	[FIX] Naprawa ruchu na koniu podczas ataku bez posiadania broni 	
+•	[FIX] Naprawa błędu z kolorami potworów - 'mob_color'  	
+•	[FIX] Naprawa funkcji 'SendScript' poprzez zarządzanie wskaźnikami dla większej stabilności gry 	
+•	[FIX] Naprawa błędu zamykania sesji gracza przy użyciu polecenia 'SCMD_QUIT' 	
+•	[FIX] Naprawa błędu dostępu do nieistniejących indexów graczy 	
+•	[FIX] Naprawa błędu obliczania rozmiaru pakietu 'HEADER_GC_QUEST_INFO' 	
+•	[FIX] Naprawa błędu inicjalizacji liczby materiałów w 'InitializeRefineTable' 	
+•	[FIX] Naprawa awarii rdzenia gry przy braku wskaźnika właściciela w 'ClearMountAttributeAndAffect' 	
+•	[FIX] Naprawa błędu przenoszenia tekstu z czatu w okno protokołu wiadomości 	
+•	[FIX] Naprawa błędu aktywacji zakładki 'Wszystkie' w protokole wiadomości 	
+•	[FIX] Naprawa błędu opóźnionego wyświetlania obrażeń po śmierci potworów 	
+•	[FIX] Naprawa błędu wczytywania pliku etc_drop_item gdy name ma koreańskie nazwy 	
+•	[FIX] Naprawa błędu yang buga w systemie budowania terenu Gildii 	
+•	[FIX] Naprawa błędu z wyszukiwaniem gracza przez nazwę 	 //for /dc command
+•	[FIX] Naprawa awarii rdzenia gry przy braku wskaźnika właściciela w 'ClearMountAttributeAndAffect' 	
+•	[FIX] Naprawa błędu opóźnionego efektu umiejętności berserk u Wojowniczki 	
+•	[FIX] Naprawa błędu związanego z interakcjami podczas otwierania prywatnego sklepu 	
+•	[FIX] Naprawa błędu graficznego w animacji czekania z wędką u Wojowniczki 	
+•	[FIX] Naprawa błędu w Alchemii Smoczych Kamieni - nieprawidłowe sprawdzanie wolnych slotów 	
+•	[FIX] Zabezpieczenie autoryzacji do listy znajomych przed flood exploitem 	
+•	[FIX] Naprawa błędu dodawania gracza do listy znajomych, gdy gracz jest już naszym znajomym 	
+•	[FIX] Zabezpieczenie funkcji dodawania komentarzy w Gildii przed nadużyciami 	
+•	[FIX] Naprawa błędu pustego zestawu tekstur 	
+•	[FIX] Naprawa błędu ataku dystansowego z uwzględnieniem pozycji gracza na wierzchowcu 	
+•	[FIX] Został naprawiony błąd z full-screenem. System wymuszał włączenie aplikacji w oknie.
+•	[FIX] Naprawa błędu umożliwiającego zabicie gracza w trybie obserwatora podczas wojny Gildii 	
+•	[FIX] Naprawa błędu wyłączania efektu toggle umiejętności po śmierci 	
+•	[FIX] Naprawa wycieku pamięci w 'CShopManager' 	
+•	[FIX] Naprawa błędu braku kontroli nullptr dla 'pkItem' w funkcji 'item_destroy_event' 	
+•	[FIX] Naprawa błędu bezpieczeństwa w funkcji 'EncodeInsertPacket' i 'EncodeRemovePacket' 	
+•	[FIX] Od teraz nie wyrzuca po przełożeniu umiejetnosci Przylowaj Konia na pusty slot w oknie umiejetnosci.
+•	[FIX] Naprawa błędu rozdawania nagród na OX będąc na CH99 	
+•	[FIX] Naprawa błędu używania przedmiotów questowych podczas handlu 	
+•	[FIX] Usuwanie gildii podczas trwania wojny 	f
+•	[FIX] Zakładanie kostiumów na przedmioty ślubne 	
+•	[FIX] Nieprawidłowa dystrybucja EXP/Yang dla gracza w PT na innej mapie. 	
+•	[FIX] Naprawa błędu zadawania obrażeń w marmurku po 'odbugowywaniu' auto poty 	
+•	[FIX] Naprawa błędów w umiejętności Krycie Się 	
+•	[FIX] Poprawiono zwój korekcji.
+•	[FIX] Poprawione stackowanie kamieni dusz.
+•	[FIX] Naprawa błędu w umiejętności Ognisty Duch - nie zadaje obrażeń na wierzchowcu / koniu 	
+•	[FIX] Naprawa błędu kolizji postaci po zniknięciu 	
+•	[FIX] Naprawa błędu z wyzywaniem gracza na pojedynek podczas aktywnego trybu ochrony 	
+•	[FIX] Naprawa błędu z atakowaniem gracza podczas trybu aktywnej ochrony 	
+•	[FIX] Naprawa błędu dezaktywacji trybu PVP po wylogowania 	
+•	[FIX] Naprawa błędu: zmiana płci postaci uniemożliwia zdjęcie kostiumu lub fryzury 	
+•	[FIX] Naprawa braku automatycznego wylogowania po zmianie płci 	
+•	[FIX] Naprawa atakowania gracza kopiącego rude albo łowiącego ryby	
+•	[FIX] Blokada komendy cube podczas handlu 	
+•	[FIX] Naprawa biegnących mobów za nami. 	
+•	[FIX] Jak zablokować wypadanie przedmiotów z rangą na minusie 	
+•	[FIX] Naprawa błędu z atakiem potworów podczas aktywnego Krycia Się 	
+•	[FIX] Naprawa awarii klienta gry podczas zamykania 	
+•	[FIX] Naprawa błędu łączenia przedmiotów w grupie + nowa funkcja 	
+•	
+•	[CodeReview] Przeprowadzono rewizję kodu w pliku: 'PythonApplicationProcedure.cpp'. 	 
+•	[CodeReview] Zoptymalizowano strukturę 'DynamicCharacterPtr' zgodnie z najnowszym standardem. 	
+•	[CodeReview] Przeprowadzono refaktoryzację funkcji 'CInputLogin::CharacterCreate'. 	 
+•	[CodeReview] Refaktoryzacja kodu w PythonApplication, dodano nowe funkcje. [*ALFA TEST*] 
+•	[CodeReview] Zrefaktoryzowano funkcje 'Cube_request_result_list' i 'Cube_request_material_info' + 'FN_check_valid_npc'. 	 
+•	[CodeReview] Przeprowadzono refaktoryzację funkcji 'SetTargetName', 'SetSelfName', 'GetNameFromSelf' oraz 'GetNameFromTarget'. 	 
+•	[CodeReview] Zrefaktoryzowano funkcję 'mining' w celu poprawy czytelności, bezpieczeństwa i wydajności, oraz zaktualizowano typy danych. 	 
+•	[CodeReview] Refaktoryzacja funkcji 'CQuestManager::Reload()'. 	 
+•	[REMOVE] Usunięto kod odpowiadający za sprawdzanie licencji serwera, który uniemożliwiał uruchomienie procesu 'game'. 	 
+•	[REMOVE] Usunięto nieużywany kod modułu 'hackshield'. 	 
+•	[REMOVE] Usunięto nieużywany kod modułu 'xtrap'. 	 
+•	[REMOVE] Usunięto nieużywany kod w funkcji Damage, który obsługiwał Pirata Tanake. Pracuję nad nową wersję obsługi tego zdarzenia. 	 
+•	[REMOVE] Usunięto wszystkie kamienie duszy (+6 do +9) oraz kamień traumy, masakry, głupoty, trucizny.
+•	[REMOVE] Usunięcie systemu Monarchy 	
+•	[REMOVE] Usunięcie systemu Auction 	
+•	[REMOVE] Usunięcie nieużywanego modułu 'vcard' 	
+•	[REMOVE] Ussuwanie nieużywanego modułu 'billing' 	
+•	[REMOVE] Usunięcie nieużywanego modułu 'sms - mobile' 	
+•	[REMOVE] Usunięcie nieużywanego modułu 'openid' 	
+•	[REMOVE] Usunięcie nieużywanego modułu 'dev_log' 	
+•	[REMOVE] Usunięcie nieużywanego modułu 'teen packet' 	
+•	[REMOVE] Usunięcie nieużywanergo modułu 'passpod' 	
+•	[REMOVE] Usunięcie nieużywanego modułu 'matrix_card' 	
+•	[REMOVE] Usunięcie nieużywanego eventu 'lotto' 	
+•	[REMOVE] Usunięcie nieużywanego modułu 'highscore' 	
